@@ -5,5 +5,5 @@ install:
 	yarn test
 
 clean:
-	rm -rf node_modules
+	rm -rf node_modules dist/*
 	@echo Project is clean.
