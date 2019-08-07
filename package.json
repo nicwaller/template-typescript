@@ -16,10 +16,12 @@
     "verbose": true
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "pino": "5.8.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.2",
+    "@types/lodash": "^4.14.136",
     "@types/pino": "5.8.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
