@@ -16,6 +16,13 @@ For a solo developer it's probably nice to use WebStorm's built-in TypeScript su
 - Open [Preferences | Languages & Frameworks | TypeScript](jetbrains://WebStorm/settings?name=Languages+%26+Frameworks--TypeScript)
 - Turn off "Recompile on changes"
 
+## TSLint
+
+Disable tslint -- I'm using eslint instead.
+
+- Open [Preferences | Languages & Frameworks | TypeScript | TSLint](jetbrains://WebStorm/settings?name=Languages+%26+Frameworks--TypeScript--TSLint)
+- Set mode to "Disable TSLint"
+
 ## Pretty logging
 
 I'm using `pino` for logging and `pino-pretty` to prettify the structured logging output for console usage. But I can't figure out a way to use the WebStorm debugger AND `pino-pretty` at the same time, so I end up with two different run configurations. Use the Node.js-style run config for debugging, or the npm-style run config for pretty output.
