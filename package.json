@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint src --ext .ts,.tsx",
+    "main": "node dist/index.js | pino-pretty",
     "test": "jest"
   },
   "jest": {
@@ -28,6 +29,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-jest": "^22.14.1",
     "jest": "^24.8.0",
+    "pino-pretty": "^3.2.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   }
