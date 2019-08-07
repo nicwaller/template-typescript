@@ -1,2 +1,7 @@
+import pino from 'pino';
+const logger = pino({
+    name: 'app-name',
+    level: 'debug'
+});
 const helloWorld: string = 'Hello World';
-console.log(helloWorld);
+logger.info(helloWorld);
