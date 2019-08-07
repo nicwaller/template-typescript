@@ -1,0 +1,13 @@
+{
+  "name": "template-typescript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/nicwaller/template-typescript.git",
+  "author": "Nic Waller <code@nicwaller.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "dependencies": {}
+}
