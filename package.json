@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint src --ext .ts,.tsx",
-    "main": "node dist/index.js | pino-pretty",
+    "main": "node dist/index.js | pino-pretty -i v",
     "test": "jest"
   },
   "jest": {
