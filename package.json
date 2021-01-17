@@ -15,7 +15,9 @@
   "jest": {
     "testEnvironment": "node",
     "preset": "ts-jest",
-    "roots": ["src"],
+    "roots": [
+      "src"
+    ],
     "verbose": true
   },
   "dependencies": {
